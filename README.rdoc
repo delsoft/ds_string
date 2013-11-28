@@ -1,0 +1,5 @@
+= DsString
+
+Extending String class with mult puporse functions.
+
+This project  uses MIT-LICENSE.
