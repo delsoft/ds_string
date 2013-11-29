@@ -68,7 +68,7 @@
         
           <li><a href="./DsString.html">DsString</a></li>
         
-          <li><a href="./DsString/String.html">DsString::String</a></li>
+          <li><a href="./String.html">String</a></li>
         
         </ul>
         <div id="no-class-search-results" style="display: none;">No matching classes.</div>
@@ -103,7 +103,7 @@ RDoc::Task = Rake::RDocTask</pre>
 <p>RDoc::Task.new(:rdoc) do |rdoc|</p>
 
 <pre>rdoc.rdoc_dir = 'rdoc'
-rdoc.title    = 'StringUtils'
+rdoc.title    = 'DsString'
 rdoc.options &lt;&lt; '--line-numbers'
 rdoc.rdoc_files.include('README.rdoc')
 rdoc.rdoc_files.include('lib/**/*.rb')</pre>
@@ -117,6 +117,14 @@ rdoc.rdoc_files.include('lib/**/*.rb')</pre>
 <p>RSpec::Core::RakeTask.new(:spec)</p>
 
 <p>task :default =&gt; :spec</p>
+
+<p>namespace :gem do</p>
+
+<pre>task :build do
+  system 'mkdir pkg; gem build ds_string.gemspec; mv *.gem pkg'
+end</pre>
+
+<p>end</p>
 
   </div>
 

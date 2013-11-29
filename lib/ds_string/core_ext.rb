@@ -16,6 +16,8 @@ class String
     raise ArgumentError.new("invalid value for Boolean: \"#{self}\"")
   end
 
+  alias :to_b :to_bool
+  
   # Extending a String class with method that repeat the string _n_ times.
   # *simple case:*
   #  "a".times 2 
@@ -44,5 +46,6 @@ class String
   def for_debug 
     "\n#{'+'.times 8}>\n#{self}#{'-'.times 8}>\n"
   end
+
 
 end

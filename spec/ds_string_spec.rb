@@ -28,6 +28,9 @@ describe String do
 
 		it { expect{ "xx".to_bool }.to raise_error }
 
+        
+		it "should has #to_b alias for #to_bool" do "true".to_b.should be_true end
+
 	end
 
 end

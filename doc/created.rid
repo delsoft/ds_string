@@ -1,9 +1,9 @@
-Thu, 28 Nov 2013 16:35:37 -0200
-./spec/ds_string_spec.rb	Thu, 28 Nov 2013 11:58:45 -0200
-./Gemfile	Thu, 28 Nov 2013 14:42:33 -0200
+Fri, 29 Nov 2013 12:47:16 -0200
+./spec/ds_string_spec.rb	Fri, 29 Nov 2013 12:47:04 -0200
+./Gemfile	Thu, 28 Nov 2013 17:29:44 -0200
 ./MIT-LICENSE	Wed, 27 Nov 2013 17:34:48 -0200
 ./lib/ds_string.rb	Thu, 28 Nov 2013 14:44:21 -0200
-./lib/ds_string/version.rb	Thu, 28 Nov 2013 16:34:54 -0200
-./lib/ds_string/core_ext.rb	Thu, 28 Nov 2013 16:35:34 -0200
-./Rakefile	Thu, 28 Nov 2013 11:28:37 -0200
+./lib/ds_string/version.rb	Fri, 29 Nov 2013 12:18:07 -0200
+./lib/ds_string/core_ext.rb	Fri, 29 Nov 2013 12:44:09 -0200
+./Rakefile	Thu, 28 Nov 2013 17:25:52 -0200
 ./README.rdoc	Thu, 28 Nov 2013 16:27:29 -0200

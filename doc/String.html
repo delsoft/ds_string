@@ -69,6 +69,8 @@
           
           <li><a href="#method-i-times">#times</a></li>
           
+          <li><a href="#method-i-to_b">#to_b</a></li>
+          
           <li><a href="#method-i-to_bool">#to_bool</a></li>
           
           <li><a href="#method-i-to_underscore">#to_underscore</a></li>
@@ -170,7 +172,7 @@
             
             <div class="method-source-code" id="for_debug-source">
 <pre>
-<span class="ruby-comment"># File lib/ds_string/core_ext.rb, line 44</span>
+<span class="ruby-comment"># File lib/ds_string/core_ext.rb, line 46</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">for_debug</span> 
   <span class="ruby-node">&quot;\n#{'+'.times 8}&gt;\n#{self}#{'-'.times 8}&gt;\n&quot;</span>
 <span class="ruby-keyword">end</span></pre>
@@ -216,7 +218,7 @@ the string <em>n</em> times. *simple case:*</p>
             
             <div class="method-source-code" id="times-source">
 <pre>
-<span class="ruby-comment"># File lib/ds_string/core_ext.rb, line 31</span>
+<span class="ruby-comment"># File lib/ds_string/core_ext.rb, line 33</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">times</span> <span class="ruby-identifier">num</span>
   <span class="ruby-identifier">ret</span> = <span class="ruby-string">''</span>
   <span class="ruby-identifier">num</span>.<span class="ruby-identifier">times</span> <span class="ruby-keyword">do</span> 
@@ -237,6 +239,35 @@ the string <em>n</em> times. *simple case:*</p>
 
           
         </div><!-- times-method -->
+
+      
+        <div id="to_b-method" class="method-detail method-alias">
+          <a name="method-i-to_b"></a>
+
+          
+          <div class="method-heading">
+            <span class="method-name">to_b</span><span
+              class="method-args">()</span>
+            <span class="method-click-advice">click to toggle source</span>
+          </div>
+          
+
+          <div class="method-description">
+            
+            
+            
+
+            
+          </div>
+
+          
+
+          
+          <div class="aliases">
+            Alias for: <a href="String.html#method-i-to_bool">to_bool</a>
+          </div>
+          
+        </div><!-- to_b-method -->
 
       
         <div id="to_bool-method" class="method-detail ">
@@ -274,6 +305,10 @@ a string in a boolean value.  Possibles case insensitive values are
             
           </div>
 
+          
+          <div class="aliases">
+            Also aliased as: <a href="String.html#method-i-to_b">to_b</a>
+          </div>
           
 
           
