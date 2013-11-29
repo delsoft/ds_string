@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.version     = DsString::VERSION
   s.author      =  "Nardele Salomon"
   s.email       = ["del.soft.99@gmail.com"]
-  s.homepage    = "https://github.com/delsoft"
+  s.homepage    = "https://github.com/delsoft/ds_string/wiki/DsString"
   s.summary     = "String extensions #{DsString::VERSION}"
   s.description = "String extensions"
 
