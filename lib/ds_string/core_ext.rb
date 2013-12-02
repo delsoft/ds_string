@@ -1,4 +1,4 @@
-
+# encoding: utf-8
 class String
   
   def to_underscore
@@ -11,8 +11,8 @@ class String
   #   "y".to_bool == true
   #   "No".to_bool == true
   def to_bool
-    return true if self == true || self =~ (/(true|t|yes|y|1)$/i)
-    return false if self == false || self == '' || self == nil || self =~ (/(false|f|no|n|0)$/i)
+    return true if self == true || self =~ (/(true|t|yes|y|1|s|sim)$/i)
+    return false if self == false || self == '' || self == nil || self =~ (/(false|f|no|n|0|nao|não)$/i)
     raise ArgumentError.new("invalid value for Boolean: \"#{self}\"")
   end
 

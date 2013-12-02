@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'ds_string'
 
 describe String do 
@@ -17,6 +18,8 @@ describe String do
 		it { "true".to_bool.should be_true }
 		it { "True".to_bool.should be_true }
 		it { "TRUE".to_bool.should be_true }
+		it { "s".to_bool.should be_true }
+		it { "sim".to_bool.should be_true }
 
 		it { "0".to_bool.should be_false }
 		it { "n".to_bool.should be_false }
@@ -25,6 +28,8 @@ describe String do
 		it { "false".to_bool.should be_false }
 		it { "False".to_bool.should be_false }
 		it { "FALSE".to_bool.should be_false }
+		it { "nao".to_bool.should be_false }
+		it { "não".to_bool.should be_false }
 
 		it { expect{ "xx".to_bool }.to raise_error }
 
